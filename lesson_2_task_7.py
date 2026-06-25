@@ -1,5 +1,5 @@
 # Создайте список [ 18, 14, 10, 6, 2 ] с помощью функции range() и выведите его на экран.
-for n in range(18, 0, -4):
-    print(n, end=' ')
+my_list = list(range(18, 1, -4))
+print(my_list)
    
 
