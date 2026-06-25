@@ -8,7 +8,7 @@ def month_to_season(number):
         return ("На планете Земля только 12 месяцев в году")
     elif number < 1:
         return ("Такого номера месяца не существует")
-    elif number == 1 or number == 2 or number ==12:
+    elif  number < 1 or number > 12:
         return("Зима")
     elif  3 <= number <= 5:
         return("Весна")
