@@ -3,11 +3,10 @@
 #Если переданный аргумент был не целым, округлите результат вверх
 import math
 
-
 def square(side):
-    area = side ** 2
+    area = math.ceil(side ** 2)
     return area    
 
-side = math.ceil(float((input("Введите сторону длину стороны квадрата: "))))
+side = float((input("Введите сторону длину стороны квадрата: ")))
 print("Площадь квадрата = ", square(side))
 
